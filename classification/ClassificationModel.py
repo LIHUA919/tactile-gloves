@@ -108,7 +108,9 @@ class ClassificationModel(BaseModel):
         self.dataProcessor = None
 
             
+    '''  很棒 '''
     def step(self, inputs, isTrain = True, params = {}):
+        
 
         if isTrain:
             self.model.train()
